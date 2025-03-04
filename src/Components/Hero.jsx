@@ -3,7 +3,7 @@ import { ReactTyped } from "react-typed";
 
 const Hero = () => {
   return (
-    <div className="h-9/10 w-full flex flex-col m-auto text-center text-white justify-center items-center">
+    <div className="max-w-[800px] mt-[-96px] w-full h-screen flex flex-col m-auto text-center text-white justify-center items-center">
       <div>
       <div>
         <p className="text-[#00df9a] font-bold p-2">
@@ -30,7 +30,7 @@ const Hero = () => {
         </p>
       </div>
       <div>
-        <button>Get Started</button>
+        <button className=" p-2.5 w-52 rounded-md text-[black] font-medium mt-4 bg-[#00df9a] hover:bg-[#00b27b] hover:cursor-pointer active:border-1" >Get Started</button>
       </div>
       </div>
     </div>

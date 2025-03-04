@@ -19,7 +19,7 @@ const NavBar = () => {
         <li className="p-4">Contact</li>
       </ul>
       <div onClick={onMenuClick} className="md:hidden">
-        {!isNavOpen ? <MdClose size={20} /> : <LuMenu size={20} />} 
+        {isNavOpen ? <MdClose size={20} /> : <LuMenu size={20} />} 
       </div>
         <div className={isNavOpen ? 'fixed h-full w-[60%] bg-[#000300] left-0 top-0 border-r border-r-gray-900 ease-in-out duration-500 md:hidden' : 'ease-out duration-900 fixed left-[-100%]'}>
           <h1 className="W-FULL text-3xl font-bold text-[#00df9a] p-4">
